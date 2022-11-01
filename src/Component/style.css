@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Silkscreen", cursive;
+}
+html {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../public/images/html-background.png);
+}
+
+.header {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 70px;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+}
+.left-content {
+    margin-top: 10px;
+    flex-basis: 70%;
+}
+
+.left-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card {
+    width: 300px;
+    background-color: #9edef9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.right-content {
+    align-self: center;
+    flex-basis: 40%;
+    margin-right: 250px;
+    top: 250px;
+    text-align: center;
+    color: black;
+    position: fixed;
+    right: 10px;
+}
+.right-content img {
+    margin: 1.5rem;
+    height: 160px;
+}
+.right-content h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.abilities {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.abilities .group {
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.base-stat {
+    margin-top: 2rem;
+}
+.btn-group {
+    display: flex;
+}
+.btn-group button {
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
